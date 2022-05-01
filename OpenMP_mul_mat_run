@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ -fopenmp -o test PATH/OpenMP_mul_mat.cpp $1
+./test $2 $3 $4 $5	
